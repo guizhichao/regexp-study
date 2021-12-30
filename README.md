@@ -1,15 +1,18 @@
 # 正则表达式 学习
 
-## 开始吧
+## 元字符
 
-Install dependencies,
+### 万物皆有源，正则也是如此，元字符是构造正则表达式的一种基本元素。
+### 我们先来记几个常用的元字符：
+
+1.匹配有abc开头的字符串：
 
 ```bash
-$ yarn
+$ \babc或者^abc
 ```
 
-Start the dev server,
+2.匹配8位数字的QQ号码：
 
 ```bash
-$ yarn start
+$ y^\d\d\d\d\d\d\d\d$
 ```
